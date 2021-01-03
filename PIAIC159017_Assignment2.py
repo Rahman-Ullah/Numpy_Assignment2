@@ -30,6 +30,7 @@ def function1():
     x =  np.arange(1,13).reshape((6,2)) 
 
     return x
+
     """
     expected output:
     [[ 1  2]
@@ -47,10 +48,11 @@ def function2():
     #array value should be satart from 10 and end with 36 (both included)
     # Hint: dtype, reshape 
     
-     x = np.arange(10,37,dtype=np.float64).reshape((3,3,3))#wrtie your code here
+    x = np.arange(10,37,dtype=np.float64).reshape((3,3,3))#wrtie your code here
 
 
     return x
+
     """
     Expected: out put
 array([[[10., 11., 12.],
@@ -141,11 +143,11 @@ def function8():
   
     return x
 
-     """
+    """
      Expected Output:
               array([[6, 6, 6, 6, 6],
                      [6, 6, 6, 6, 6]], dtype=uint32)
-     """ 
+    """ 
     
 #task9
 def function9():
@@ -155,13 +157,13 @@ def function9():
   
     return a
 
-     """
+    """
      Expected Output:
               array([  2,   4,   6,   8,  10,  12,  14,  16,  18,  20,  22,  24,  26,
                     28,  30,  32,  34,  36,  38,  40,  42,  44,  46,  48,  50,  52,
                     54,  56,  58,  60,  62,  64,  66,  68,  70,  72,  74,  76,  78,
                     80,  82,  84,  86,  88,  90,  92,  94,  96,  98, 100])
-     """ 
+    """ 
 
 #task10
 def function10():
@@ -173,12 +175,12 @@ def function10():
   
     return subt
 
-     """
+    """
      Expected Output:
                array([[2 2 2]
                       [2 2 2]
                       [2 2 2]])
-     """ 
+    """ 
     
     
 #task11
@@ -190,10 +192,10 @@ def function11():
   
     return ans
 
-     """
+    """
      Expected Output:
               array([ 0, -1,  2, -1,  4, -1,  6, -1,  8, -1])
-     """ 
+    """ 
 
 #task12
 def function12():
@@ -207,10 +209,10 @@ def function12():
   
     return ans
 
-     """
+    """
      Expected Output:
               array([1, 1, 1, 2, 2, 2, 3, 3, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3])
-     """ 
+    """ 
 
 #task13
 def function13():
@@ -222,10 +224,10 @@ def function13():
   
     return ans
 
-     """
+    """
      Expected Output:
               array([6, 9])
-     """ 
+    """ 
 
 #task14
 def function14():
@@ -238,13 +240,13 @@ def function14():
   
     return ans
 
-     """
+    """
      Expected Output:
        [array([[10, 11, 12],[13, 14, 15]]), 
         array([[16, 17, 18],[19, 20, 21]]), 
         array([[22, 23, 24],[25, 26, 27]]), 
         array([[28, 29, 30],[31, 32, 33]])]
-     """ 
+    """ 
     
 #task15
 def function15():
@@ -256,12 +258,12 @@ def function15():
   
     return ans
 
-     """
+    """
      Expected Output:
            array([[-4,  1,  7],
                    [ 8,  2, -2],
                    [ 6,  3,  9]])
-     """ 
+    """ 
     
 #task16
 def function16():
@@ -274,14 +276,14 @@ def function16():
   
     return ans
 
-     """
+    """
      Expected Output:
                 [[[1 2]]
 
                  [[2 3]]
 
                  [[3 4]]]
-     """ 
+    """ 
     
     
 #Task17
