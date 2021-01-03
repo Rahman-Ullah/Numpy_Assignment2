@@ -39,7 +39,6 @@ def function1():
     [ 9 10]
     [11 12]]
     """
-function1()
 
 # Task2
 def function2():
@@ -48,7 +47,7 @@ def function2():
     #array value should be satart from 10 and end with 36 (both included)
     # Hint: dtype, reshape 
     
-     x = np.arange(10,37,dtype=np.float64).reshape((3,3,3))     #wrtie your code here
+     x = np.arange(10,37,dtype=np.float64).reshape((3,3,3))#wrtie your code here
 
 
     return x
@@ -66,7 +65,7 @@ array([[[10., 11., 12.],
         [31., 32., 33.],
         [34., 35., 36.]]])    
     """
-function2()
+    
 #task3
 def function3():
     #extract those numbers from given array. those are must exist in 5,7 Table
@@ -79,8 +78,8 @@ def function3():
      [35,  70, 105, 140, 175, 210, 245, 280, 315, 350, 385, 420, 455,
        490, 525, 560, 595, 630, 665, 700, 735, 770, 805, 840, 875, 910,
        945, 980] 
-    """ 
-function3()   
+    """
+
 #task4
 def function4():
     #Swap columns 1 and 2 in the array arr.
@@ -94,7 +93,7 @@ def function4():
                 [4, 3, 5],
                 [7, 6, 8]])
     """ 
-function4()
+
 #task5
 def function5():
     #Create a null vector of size 20 with 4 rows and 5 columns with numpy function
@@ -109,7 +108,7 @@ def function5():
                 [0, 0, 0, 0, 0],
                 [0, 0, 0, 0, 0]])
     """ 
-function5()
+
 #task6
 def function6():
     # Create a null vector of size 10 but the fifth and eighth value which is 10,20 respectively
@@ -120,7 +119,7 @@ def function6():
   
     return arr
 
-function6()       
+       
 #task7
 def function7():
     #  Create an array of zeros with the same shape and type as X. Dont use reshape method
@@ -133,7 +132,7 @@ def function7():
     Expected Output:
           array([0, 0, 0, 0], dtype=int64)
     """ 
-function7()
+
 #task8
 def function8():
     # Create a new array of 2x5 uints, filled with 6.
@@ -147,7 +146,7 @@ def function8():
               array([[6, 6, 6, 6, 6],
                      [6, 6, 6, 6, 6]], dtype=uint32)
      """ 
-function8()    
+    
 #task9
 def function9():
     # Create an array of 2, 4, 6, 8, ..., 100.
@@ -163,7 +162,7 @@ def function9():
                     54,  56,  58,  60,  62,  64,  66,  68,  70,  72,  74,  76,  78,
                     80,  82,  84,  86,  88,  90,  92,  94,  96,  98, 100])
      """ 
-function9()
+
 #task10
 def function10():
     # Subtract the 1d array brr from the 2d array arr, such that each item of brr subtracts from respective row of arr.
@@ -181,7 +180,7 @@ def function10():
                       [2 2 2]])
      """ 
     
-function10()    
+    
 #task11
 def function11():
     # Replace all odd numbers in arr with -1 without changing arr.
@@ -195,7 +194,7 @@ def function11():
      Expected Output:
               array([ 0, -1,  2, -1,  4, -1,  6, -1,  8, -1])
      """ 
-function11()
+
 #task12
 def function12():
     # Create the following pattern without hardcoding. Use only numpy functions and the below input array arr.
@@ -212,7 +211,7 @@ def function12():
      Expected Output:
               array([1, 1, 1, 2, 2, 2, 3, 3, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3])
      """ 
-function12()
+
 #task13
 def function13():
     # Set a condition which gets all items between 5 and 10 from arr.
@@ -227,7 +226,7 @@ def function13():
      Expected Output:
               array([6, 9])
      """ 
-function13()
+
 #task14
 def function14():
     # Create an 8X3 integer array from a range between 10 to 34 such that the difference between each element is 1 and then Split the array into four equal-sized sub-arrays.
@@ -246,7 +245,7 @@ def function14():
         array([[22, 23, 24],[25, 26, 27]]), 
         array([[28, 29, 30],[31, 32, 33]])]
      """ 
-function14()    
+    
 #task15
 def function15():
     #Sort following NumPy array by the second column
@@ -263,7 +262,7 @@ def function15():
                    [ 8,  2, -2],
                    [ 6,  3,  9]])
      """ 
-function15()    
+    
 #task16
 def function16():
     #Write a NumPy program to join a sequence of arrays along depth.
@@ -284,7 +283,7 @@ def function16():
                  [[3 4]]]
      """ 
     
-function16()    
+    
 #Task17
 def function17():
     # replace numbers with "YES" if it divided by 3 and 5
@@ -308,7 +307,7 @@ array([['NO', 'NO', 'NO', 'NO', 'NO', 'NO', 'NO', 'NO', 'NO', 'NO'],
        ['NO', 'NO', 'NO', 'NO', 'NO', 'NO', 'NO', 'NO', 'NO', 'NO']],
       dtype='<U3')
 """
-function17()
+
 #Task18
 def function18():
     # count values of "students" are exist in "piaic"
@@ -319,7 +318,7 @@ def function18():
     return x
 
     #Expected output: 3
-function18()
+
 # Task19
 def function19():
     #Create variable "X" from 1,25 (both are included) range values
@@ -342,7 +341,7 @@ def function19():
        [ 69, 158, 257, 366, 485],
        [110, 225, 350, 485, 630]])
     """
-function19()
+
 
 #Task20
 def function20():
@@ -353,5 +352,5 @@ def function20():
 
     return abc(x) #Write your Code here
 #Expected Output: array([ 3,  5,  7,  9, 11, 13, 15, 17, 19, 21])
-function20()
+
 #--------------------------X-----------------------------X-----------------------------X----------------------------X---------------------
